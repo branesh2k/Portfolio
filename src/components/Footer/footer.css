@@ -1,8 +1,8 @@
 .footer {
-  margin: 50px 170px 0px 170px;
+  margin: 37.5px 128px 0px 128px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 22.5px;
 }
 
 .footer-top {
@@ -11,8 +11,8 @@
 }
 
 .footer-top-left p {
-  font-size: 20px;
-  max-width: 400px;
+  font-size: 15px;
+  max-width: 300px;
 }
 
 .footer-top-right {
@@ -23,12 +23,12 @@
   /* background: linear-gradient(264deg, #df8909 -5.09%, #b415ff 106.28%); */
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 26px;
   cursor: pointer;
   transition: 0.3s;
 }
 .footer-logos img {
-  height: 30px;
+  height: 22.5px;
 }
 
 .footer-logos .github {
@@ -36,19 +36,19 @@
   background: linear-gradient(264deg, #df8909 -5.09%, #b415ff 106.28%);
 }
 .footer-logos .insta {
-  height: 35px;
+  height: 26px;
 }
 
 .footer-bottom {
   display: flex;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 13.5px;
 }
 
 .footer-bottom-right {
   display: flex;
-  gap: 50px;
-  margin-bottom: 50px;
+  gap: 37.5px;
+  margin-bottom: 37.5px;
 }
 
 .footer-email-input:hover {
@@ -67,7 +67,7 @@
   position: relative;
   z-index: 1;
   color: white;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 500;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
@@ -78,7 +78,7 @@
   bottom: 0.5px;
   right: -10px;
   z-index: -1;
-  width: 80px;
+  width: 60px;
   opacity: 0.6;
   pointer-events: none;
 }

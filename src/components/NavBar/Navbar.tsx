@@ -72,20 +72,28 @@ const Navbar = () => {
           <Link className="link-button" to="/" onClick={closeMenu}>
             Home
           </Link>
-          {activePath === "home" ? <img src={nav_underline} alt="" /> : <></>}
+          {activePath === "home" ? (
+            <img src={nav_underline} alt="" style={{ width: "30px" }} />
+          ) : (
+            <></>
+          )}
         </li>
         <li>
           <Link className="link-button" to="/about" onClick={closeMenu}>
             About Me
           </Link>
-          {activePath === "about" ? <img src={nav_underline} alt="" /> : <></>}
+          {activePath === "about" ? (
+            <img src={nav_underline} alt="" style={{ width: "30px" }} />
+          ) : (
+            <></>
+          )}
         </li>
         <li>
           <Link className="link-button" to="/projects" onClick={closeMenu}>
             Projects
           </Link>
           {activePath === "projects" ? (
-            <img src={nav_underline} alt="" />
+            <img src={nav_underline} alt="" style={{ width: "30px" }} />
           ) : (
             <></>
           )}
@@ -100,7 +108,7 @@ const Navbar = () => {
             Contact
           </Link>
           {activePath === "contact" ? (
-            <img src={nav_underline} alt="" />
+            <img src={nav_underline} alt="" style={{ width: "30px" }} />
           ) : (
             <></>
           )}

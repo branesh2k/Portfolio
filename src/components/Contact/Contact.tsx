@@ -36,7 +36,7 @@ const Contact = () => {
       });
 
       if (response.ok) {
-        navigate("/thanks");
+        navigate("https://braneshp24.netlify.app/thanks");
       } else {
         alert("Something went wrong. Please try again.");
       }
@@ -63,11 +63,11 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-detail">
               <img src={mail_icon} alt="" />
-              <p>braneshp24@gmail.com</p>
+              <p>brane@gmail.com</p>
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="" />
-              <p>+917598193064</p>
+              <p>+917598190000</p>
             </div>
             <div className="contact-detail">
               <img src={location_icon} alt="" />

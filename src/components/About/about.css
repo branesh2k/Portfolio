@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 30px 170px;
+  margin: 22px 96px;
 }
 
 .about-title {
@@ -13,7 +13,7 @@
 
 .about-title h1 {
   padding: 0 30px;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 600;
 }
 
@@ -22,46 +22,49 @@
   bottom: 0;
   right: 0;
   z-index: -1;
+  width: 160px; /*1*/
 }
 
 .about-sections {
   display: flex;
-  gap: 80px;
+  gap: 60px;
+  justify-content: center;
   margin-bottom: 30px;
 }
 
 .about-left img {
-  margin-top: 60px;
-  height: 450px;
-  margin-left: 40px;
-  border-radius: 100px;
+  margin-top: 40px;
+  height: 340px;
+  margin-left: 30px;
+  border-radius: 70px;
+  justify-content: center; /*added*/
 }
 
 .about-right {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 60px;
 }
 
 .about-para {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  font-size: 24px;
-  font-weight: 500;
+  gap: 22px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .about-skills-columns {
   display: flex;
   align-items: flex-start;
-  gap: 40px;
+  gap: 20px;
   margin-top: 20px;
 }
 
 .about-skills-divider {
   width: 2px;
   background: linear-gradient(264deg, #df8909 -5.09%, #b415ff 106.28%);
-  min-height: 220px;
+  min-height: 160px;
   align-self: stretch;
   border-radius: 2px;
 }
@@ -69,8 +72,8 @@
 .about-skills-col {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  width: 500px;
+  gap: 11px;
+  width: 400px;
 }
 
 .about-skill {
@@ -83,7 +86,7 @@
 
 .about-skill p {
   min-width: 100px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 .bar-wrapper {
@@ -91,7 +94,7 @@
 }
 
 .bar-wrapper hr {
-  height: 8px;
+  height: 5px;
   border: none;
   border-radius: 50px;
   background: linear-gradient(264deg, #df8909 -5.09%, #b415ff 106.28%);
@@ -113,7 +116,7 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 50px;
 }
 
@@ -126,7 +129,7 @@
 }
 
 .about-acheivement h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   background: linear-gradient(270deg, #df8909 50.41%, #b415ff 90.25%);
   background-clip: text;
@@ -135,7 +138,7 @@
 }
 
 .about-acheivement p {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
 }
 .about-acheivement:hover {

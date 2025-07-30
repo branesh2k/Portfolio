@@ -15,11 +15,7 @@ const Hero = () => {
 
   return (
     <div className="hero">
-      <img
-        style={{ height: 320, width: 320 }}
-        src={profileImg}
-        alt="my photo"
-      />
+      <img src={profileImg} alt="my photo" />
       <h1>I'm Branesh</h1>
       <h2>Software Engineer</h2>
       <p>

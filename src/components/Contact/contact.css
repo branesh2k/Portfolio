@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 80px;
-  margin: 80px 170px;
+  margin: 60px 127.5px;
 }
 
 .contact-title {
@@ -12,8 +12,8 @@
 }
 
 .contact-title h1 {
-  padding: 0px 30px;
-  font-size: 80px;
+  padding: 0px 22.5px;
+  font-size: 60px;
   font-weight: 600;
 }
 
@@ -22,21 +22,22 @@
   bottom: 0;
   right: 0;
   z-index: -1;
+  width: 160px;
 }
 
 .contact-section {
   display: flex;
-  gap: 150px;
+  gap: 120px;
 }
 
 .contact-left {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 23px;
 }
 
 .contact-left h1 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
   background: linear-gradient(270deg, #df8908 80%, #b415ff 100%);
   background-clip: text;
@@ -47,22 +48,26 @@
 .contact-left p {
   max-width: 550px;
   color: #d8d8d8;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .contact-details {
   display: flex;
   flex-direction: column;
+  /* width: 200px; */
   gap: 30px;
   color: #d8d8d8;
-  font-size: 22px;
+  font-size: 20px;
+}
+.contact-details img {
+  width: 24px;
 }
 
 .contact-detail {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 16px;
 }
 
 .contact-right {
@@ -73,29 +78,29 @@
 }
 .contact-right label {
   color: #d8d8d8;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
 }
 .contact-right input {
   border: none;
-  width: 700px;
-  height: 78px;
-  padding-left: 20px;
-  border-radius: 4px;
+  width: 525px;
+  height: 50px;
+  padding-left: 18px;
+  border-radius: 3px;
   background: #32323c;
   color: #a0a0a0;
   font-family: Outfit;
-  font-size: 20px;
+  font-size: 16px;
 }
 .contact-right textarea {
-  width: 650px;
+  width: 500px;
   border: none;
-  padding: 25px;
-  border-radius: 4px;
+  padding: 20px;
+  border-radius: 3px;
   background: #32323c;
   color: #a0a0a0;
   font-family: Outfit;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .contact-submit {
@@ -103,8 +108,8 @@
   color: white;
   border-radius: 50px;
   background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 100%);
-  font-size: 22px;
-  padding: 20px 60px;
+  font-size: 18px;
+  padding: 13.5px 30px;
   margin-bottom: 50px;
   cursor: pointer;
   transition: 0.3s;

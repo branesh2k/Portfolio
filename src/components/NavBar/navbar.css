@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin: 20px 170px;
+  margin: 15px 129px;
 }
 .contact-link-button {
   text-decoration: none;
@@ -13,24 +13,26 @@
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 60px;
-  font-size: 30px;
+  gap: 45px;
+  font-size: 22.5px;
 }
+
 .nav-connect {
-  padding: 15px 20px;
+  padding: 11px 15px;
   border-radius: 50px;
   background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
-  font-size: 22px;
+  font-size: 16.5px;
   cursor: pointer;
   transition: 0.5s;
 }
 .nav-connect:hover {
   transform: scale(1.05);
 }
+
 .nav-menu li {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 3.75px;
   cursor: pointer;
 }
 
@@ -48,7 +50,7 @@
 }
 
 .logo-text {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 500;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
@@ -59,63 +61,57 @@
 
 .logo-wrapper {
   position: relative;
+  display: inline-block;
 }
 
 .logo-wrapper img {
   position: absolute;
   bottom: 0.5px;
-  right: -10px;
+  right: -7.5px;
   z-index: -1;
-  width: 80px;
+  width: 60px;
   opacity: 0.6;
   pointer-events: none;
 }
 
 @media (max-width: 600px) {
   .navbar {
-    margin: 20px 10px;
+    margin: 15px 7.5px;
   }
   .nav-connect {
     display: none;
   }
-
   .nav-mob-open {
     display: block;
     position: absolute;
-    right: 30px;
-    top: 30px;
+    right: 22.5px;
+    top: 22.5px;
     z-index: 10;
   }
   .nav-mob-close {
     display: block;
     position: relative;
-    top: 30px;
-    left: 290px;
-    width: 30px;
+    top: 22.5px;
+    left: 217.5px;
+    width: 22.5px;
   }
   .nav-menu {
     position: fixed;
     flex-direction: column;
     align-items: start;
     top: 0;
-    gap: 30px;
+    gap: 22.5px;
     background-color: #24141f;
-    width: 350px;
+    width: 262.5px;
     height: 100%;
     z-index: 2;
     transition: right 0.5s;
-    right: -350px;
+    right: -262.5px;
   }
   .nav-menu li {
-    font-size: 30px;
-    padding-left: 100px;
+    font-size: 22.5px;
+    padding-left: 75px;
     flex-direction: row;
-    gap: 20px;
-  }
-  .logo-text {
-    font-size: 24px;
-  }
-  .logo-wrapper img {
-    width: 60px;
+    gap: 15px;
   }
 }
