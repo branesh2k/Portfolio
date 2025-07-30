@@ -1,0 +1,39 @@
+.thanks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  gap: 30px;
+}
+
+.thanks h2 {
+  margin-top: 75px;
+  margin-bottom: 40px;
+  font-size: 100px;
+  background: linear-gradient(270deg, #565e90 50.41%, #a800f6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.thanks p {
+  font-size: 30px;
+  font-family: Outfit;
+}
+
+@media (max-width: 600px) {
+  .thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .thanks h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 60px;
+  }
+  .thanks p {
+    font-size: 18px;
+  }
+}
