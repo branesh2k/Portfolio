@@ -8,24 +8,24 @@ export interface Project {
 export const projects_data: Project[] = [
   {
     s_no: "01",
+    s_name: "Redshift DataWarehouse",
+    s_desc:
+      "A data warehouse project built on Amazon Redshift, integrating CRM and ERP data with optimized schema design.",
+    s_link: "https://github.com/branesh2k/AWS-Redshift-DataWarehouse",
+  },
+  {
+    s_no: "02",
     s_name: "AWS EMR with Airflow",
     s_desc:
       "Scalable ETL pipeline using Airflow to orchestrate Spark jobs on AWS EMR. Focused on production-grade workflow scheduling.",
     s_link: "https://github.com/branesh2k/AWS-EMR_with_Airflow",
   },
   {
-    s_no: "02",
+    s_no: "03",
     s_name: "Social Media API (FastAPI)",
     s_desc:
       "RESTful backend with JWT auth, user posts, and followers. Built using FastAPI and PostgreSQL with relational modeling.",
     s_link: "https://github.com/branesh2k/Social_Media_API",
-  },
-  {
-    s_no: "03",
-    s_name: "NestJS Backend API",
-    s_desc:
-      "Modular and type-safe backend using NestJS and TypeORM with Swagger docs and PostgreSQL integration.",
-    s_link: "https://github.com/branesh2k/Nestjs-API",
   },
   {
     s_no: "04",

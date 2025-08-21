@@ -66,7 +66,7 @@ const About = () => {
               <div className="about-skill">
                 <p>AWS</p>{" "}
                 <div className="bar-wrapper">
-                  <hr style={{ width: "65%" }} />
+                  <hr style={{ width: "70%" }} />
                 </div>
               </div>
             </div>
@@ -113,7 +113,7 @@ const About = () => {
         </div>
         <hr />
         <div className="about-acheivement">
-          <h1>6+</h1>
+          <h1>8+</h1>
           <p>PROJECTS</p>
         </div>
       </div>
